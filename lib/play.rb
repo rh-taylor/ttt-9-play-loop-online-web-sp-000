@@ -38,7 +38,11 @@ end
 # Define your play method below
 def play(board)
   counter = 0
+<<<<<<< HEAD
   until board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+=======
+  until turn(board) == 9
+>>>>>>> 5602a447e9aa026f78351e8b3652184a5abcfdc1
     turn(board)
     counter += 1
   end
